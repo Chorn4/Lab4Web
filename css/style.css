@@ -515,3 +515,18 @@ body {
 .footer button:hover{
     background-color: #FFB55D;
 }
+
+.footer-bottom-part{
+    background-color: #FFB55D;
+    padding: 20px;
+}
+
+.footer-bottom-part hr{
+    border: 3px solid black;
+}
+
+.footer-bottom-part h2{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 22px;
+}
