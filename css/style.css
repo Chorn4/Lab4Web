@@ -150,7 +150,20 @@ body {
     height: 300px;
     text-align: center;
     margin: 0 10px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+    .products-area-block {
+        width: 500px;
+        height: 500px;
+        margin-right: 30px;
+    }
+
+    .products-area-block button {
+        width: 500px !important;
+        height: 70px !important;
+    }
 }
 
 .products-area-block img {
@@ -204,6 +217,16 @@ body {
     text-align: center;
     margin: 20px;
     margin-bottom: 70px;
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages-block {
+        width: 250px;
+        height: 230px;
+    }
+    .advantages-block h1{
+        padding: 10px 20px;
+    }
 }
 
 .advantages-block img {
@@ -285,6 +308,22 @@ body {
     margin-bottom: 120px;
 }
 
+@media screen and (min-width: 1200px) {
+    .products-container{
+        max-width: 1500px;
+    }
+    .products-block {
+        width: 350px;
+        height: 350px;
+    }
+    .products-block button{
+        width: 350px !important;
+    }
+    .product-overlay button{
+        width: 220px !important;
+    }
+}
+
 .products-block img {
     width: 100%;
     height: 100%;
@@ -363,6 +402,23 @@ body {
     margin: 80px 15px 15px 15px;
 }
 
+@media screen and (min-width: 1200px) {
+    .categories-container{
+        max-width: 1700px;
+    }
+    .categories-block {
+        width: 320px;
+        height: 320px;
+        margin-left: 40px;
+    }
+    .categories-block button{
+        width: 320px !important;
+    }
+    .categories-overlay button{
+        width: 220px !important;
+    }
+}
+
 .categories-block img {
     width: 100%;
     height: 100%;
@@ -439,6 +495,13 @@ body {
     margin: 10px 20px 15px 11px;
 }
 
+.reviews-slider{
+    display: flex;
+    overflow-x: auto;
+    min-height: 400px;
+    max-width: 1200px;
+}
+
 @media (max-width: 1200px) {
     .reviews-slider {
         flex-direction: column;
@@ -465,12 +528,6 @@ body {
     text-align: left;
 }
 
-.reviews-slider{
-    display: flex;
-    overflow-x: auto;
-    min-height: 400px;
-    max-width: 1200px;
-}
 
 /* Footer block*/
 
@@ -501,15 +558,13 @@ body {
     display: grid;
     gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    max-width: 95% !important;
+    max-width: 95%;
     margin-top: -20px;
 }
 
 .footer-block{
     width: 100%;
 }
-
-
 
 .footer-right-side h2 {
     font-size: 30px;
